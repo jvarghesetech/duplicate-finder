@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "duplicate-finder"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = ["rich"]
+
+[project.scripts]
+dupefind = "main:main"
